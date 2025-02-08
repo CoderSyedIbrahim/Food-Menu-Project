@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    color: rgb(216, 74, 38);
+}
+
+.menu-header {
+    text-align: center;
+    color: brown;
+    background-color:darksalmon;
+    width: 19.04cm ;
+    margin: 0cm 10.50cm ;
+}
+
+.menu-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin: 0;
+    color:darkslategray;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns */
+    gap: 20px;
+    padding: 10px;
+    max-width: 700px;
+    margin: auto;
+    background-color:antiquewhite;
+
+}
+
+.menu-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*  For Two columns Partition */
+    gap: 20px;
+    padding: 10px;
+    max-width: 700px;
+    margin: auto;
+    background-color:antiquewhite;
+
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu-list {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 300px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.menu-item h2 {
+    color: rgb(219, 130, 42);
+    margin: 10px 0 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.menu-item h6 {
+    color:darkslategrey;
+    font-size: 18px;
+    margin: 0;
+}
+
+.menu-item p {
+    color: #ac7026;
+    font-size: 14px;
+}
+
+.menu-list h6 {
+    color: rgb(219, 130, 42);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+
+    font-size: 18px;
+    margin: 0;
+}
+hr {
+    width: 18.93cm;
+    color:firebrick;
+    border: 3px solid ;
+    padding: 0% ;
+    margin: 0% 10.50cm;
+}
+.header-space {
+margin-top: 0.4%;
+}
+
+.Name-Restaurant {
+    font-size: 30px;
+    padding-top: 1%;
+    margin: 1%;
+}
